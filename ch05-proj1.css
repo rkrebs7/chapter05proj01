@@ -1,0 +1,50 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+ background-color: #ECEFF1;    
+}
+
+section {
+   background-color: rgb(255, 255, 255);
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: rgb(248, 248, 248);
+  padding: 0.75rem;
+  background-color: #093247; 
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+    
+}
+.status-processing {
+    background-color:    #E65100;    
+}
+.status-shipped {
+    background-color:   #4CAF50;    
+}
+.status-pending {
+    background-color:    #03A9F4;    
+}
+
+/* table formatting -- you will add these */
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    padding: 4px;
+}
+button {
+    color: purple;
+
+}
+
